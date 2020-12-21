@@ -299,8 +299,6 @@
     <div class="col text-right mr-2"><?= $products_split->display_links($products_query_numrows, MAX_DISPLAY_SEARCH_RESULTS, MAX_DISPLAY_PAGE_LINKS, $page, tep_get_all_get_params(array('page', 'x', 'y'))) ?></div>
   </div>
 
-  <?= TEXT_ADVANCED_SPECIALS_GENERAL_COMMENT; ?>
-
   <!-- Modal -->
   <div class="modal fade" id="confirm" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -562,4 +560,3 @@ function specials_enhanced_update_product($product_id, $discount = null, $discou
 }
 
 /* EOF FUNCTIONS *********************************************************************** */
-?>
