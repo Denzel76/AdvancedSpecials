@@ -239,7 +239,7 @@
         <div class="col">
           <?= TEXT_ADVANCED_SPECIALS_GENERAL_COMMENT ?>
         </div>
-        <div class="col text-right">
+        <div class="col-auto text-right">
           <?= tep_draw_bootstrap_button(TEXT_ADVANCED_SPECIALS_ACTIVATE_ALL, 'fas fa-check', null, null, array('type'=> 'button', 'params' => 'data-action="setflag_all" data-flag="1" data-toggle="modal" data-target="#confirm"'), 'btn-success btn-sm'); ?>
           <?= tep_draw_bootstrap_button(TEXT_ADVANCED_SPECIALS_DEACTIVATE_ALL, 'fas fa-times', null, null, array('type'=> 'button', 'params' => 'data-action="setflag_all" data-flag="0" data-toggle="modal" data-target="#confirm"'), 'btn-danger btn-sm'); ?>
           <?= tep_draw_bootstrap_button(TEXT_ADVANCED_SPECIALS_REMOVE_ALL, 'fas fa-trash', null, null, array('type'=> 'button', 'params' => 'data-action="remove_all" data-toggle="modal" data-target="#confirm"'), 'btn-danger btn-sm'); ?>
