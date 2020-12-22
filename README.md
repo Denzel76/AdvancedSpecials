@@ -27,4 +27,4 @@ INSTALLATION:
    (an additional field: "start_date" will be added to the specials table and the start_specials hook
    is placed into the hooks table.)   
 
-4. No files to edit. Just have fun ;)
+4. No files to edit. Just try at Admin => Catalog => Advanced Specials and have fun ;)
