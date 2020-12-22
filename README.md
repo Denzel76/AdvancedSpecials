@@ -13,7 +13,7 @@ Set up a start and expire date.
 ---------
 INSTALLATION:
 
-1. Take a BACKUP of your data and database.
+1. Take a BACKUP of your data and database. (Actually not necessary, since nothing is overwritten, but it can never hurt to back up your data.)
 
 2. Copy the following files in the corresponding folder (no core files will be overwritten):
 
