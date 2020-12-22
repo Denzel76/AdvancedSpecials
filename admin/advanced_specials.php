@@ -188,7 +188,7 @@
         <div class="col-3">
           <?= tep_draw_pull_down_menu('sort_type', array(array('id' => 'asc', 'text' => TEXT_ADVANCED_SPECIALS_ASC), array('id' => 'desc', 'text' => TEXT_ADVANCED_SPECIALS_DESC)), $sort_type, ''); ?>
         </div>
-        <div class="col">
+        <div class="col text-nowrap">
           <div class="form-check">
             <?= tep_draw_selection_field('subcats_flag', 'checkbox', '1', ($subcats_flag == '1' ? 'checked="checked"' : '')); ?>
              <label for="subcats_flag"><?= TEXT_ADVANCED_SPECIALS_INCLUDE_SUBCATEGORIES ?></label>
